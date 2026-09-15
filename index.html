@@ -79,6 +79,7 @@
 style="background: conic-gradient(#e51e1e 45%, #ebecef 0) bottom / 100% 5px no-repeat;">
 OUR MENU
 </h1>
+<p class="text-gray-700">Crafted with passion and the finest ingredients</p>
 </div>
 
 
@@ -411,8 +412,199 @@ OUR MENU
   </div>
 
 </div>
-```
+ <section class="justify-center items-center w-full bg-[#faf2e8] py-10">
+<div class="  md:top-20 top-2 lg:ms-20 md:ms-8 ms-2  text-center">
+<h1 class="md:text-[27px] mb-2 text-[#000000]  font-extrabold inline-block pb-2"
+style="background: conic-gradient(#e51e1e 45%, #ebecef 0) bottom / 100% 5px no-repeat;">
+Make a Reservation
+</h1>
+<p class="text-gray-700">Book your table in advance to ensure the best dining experience</p>
+</div>
+<div class="md:max-w-2xl mx-auto bg-gray-50 p-8 mt-4 rounded shadow">
 
+  <form>
+
+    <!-- Date & Time -->
+    <div class="flex flex-col md:flex-row gap-6 w-full">
+
+      <div class="w-full md:w-1/2">
+        <label for="date" class="block mb-2 font-semibold">
+          Date
+        </label>
+
+        <input
+          id="date"
+          min="2026-09-15"
+          class="w-full px-4 py-3 rounded border placeholder:text-xs"
+          type="date"
+          name="date"
+        >
+      </div>
+
+      <div class="w-full md:w-1/2">
+        <label for="time" class="block mb-2 font-semibold">
+          Time
+        </label>
+
+        <select
+          id="time"
+          name="time"
+          class="w-full px-4 py-3 rounded border text-xs"
+        >
+          <option value="">Select Time</option>
+          <option value="17:00">5:00 PM</option>
+          <option value="17:30">5:30 PM</option>
+          <option value="18:00">6:00 PM</option>
+          <option value="18:30">6:30 PM</option>
+          <option value="19:00">7:00 PM</option>
+          <option value="19:30">7:30 PM</option>
+          <option value="20:00">8:00 PM</option>
+          <option value="20:30">8:30 PM</option>
+          <option value="21:00">9:00 PM</option>
+        </select>
+      </div>
+
+    </div>
+
+
+    <!-- Party Size & Table Preference -->
+    <div class="flex flex-col md:flex-row gap-6 w-full mt-6">
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="partySize"
+          class="block mb-2 font-semibold"
+        >
+          Party Size
+        </label>
+
+        <select
+          id="partySize"
+          name="partySize"
+          class="w-full px-4 py-3 rounded border text-xs"
+        >
+          <option value="">Select Party Size</option>
+          <option value="1">1 person</option>
+          <option value="2">2 persons</option>
+          <option value="3">3 persons</option>
+          <option value="4">4 persons</option>
+          <option value="5">5 persons</option>
+          <option value="6">6 persons</option>
+          <option value="7">7 persons</option>
+          <option value="8">8 persons</option>
+          <option value="9">9 persons</option>
+          <option value="10">10 persons</option>
+        </select>
+      </div>
+
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="tableRef"
+          class="block mb-2 font-semibold"
+        >
+          Table Preference
+        </label>
+
+        <select
+          id="tableRef"
+          name="tableRef"
+          class="w-full px-4 py-3 rounded border text-xs"
+        >
+          <option value="">Select Table Area</option>
+          <option value="window">Window</option>
+          <option value="center">Center</option>
+          <option value="outdoor">Outdoor</option>
+        </select>
+      </div>
+
+    </div>
+
+
+    <!-- Name & Phone -->
+    <div class="flex flex-col md:flex-row gap-6 w-full mt-6">
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="fullName"
+          class="block mb-2 font-semibold"
+        >
+          Full Name
+        </label>
+
+        <input
+          id="fullName"
+          placeholder="Enter your full name"
+          class="w-full px-4 py-3 rounded border placeholder:text-xs"
+          type="text"
+          name="fullName"
+        >
+      </div>
+
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="phone"
+          class="block mb-2 font-semibold"
+        >
+          Phone Number
+        </label>
+
+        <input
+          id="phone"
+          placeholder="Enter your phone number"
+          class="w-full px-4 py-3 rounded border placeholder:text-xs"
+          type="tel"
+          name="phone"
+        >
+      </div>
+
+    </div>
+
+
+    <!-- Email & Special Request -->
+    <div class="flex flex-col md:flex-row gap-6 w-full mt-6">
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="email"
+          class="block mb-2 font-semibold"
+        >
+          Email Address
+        </label>
+
+        <input
+          id="email"
+          placeholder="Enter your email"
+          class="w-full px-4 py-3 rounded border placeholder:text-xs"
+          type="email"
+          name="email"
+        >
+      </div>
+
+
+      <div class="w-full md:w-1/2">
+        <label
+          for="specialRequest"
+          class="block mb-2 font-semibold"
+        >
+          Special Request
+        </label>
+
+        <textarea
+          id="specialRequest"
+          name="specialRequest"
+          placeholder="Any special requests?"
+          rows="4"
+          class="w-full px-4 py-3 rounded border placeholder:text-xs"
+        ></textarea>
+      </div>
+
+    </div>
+
+  </form>
+
+</div>
 
   </body>
 </html>
