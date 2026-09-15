@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)),
+    url("assets/1789405699966.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.helo{
+    font-weight: 900;
+}
+.width{
+    width: 50%;
+    margin-left: 20px;
+}
